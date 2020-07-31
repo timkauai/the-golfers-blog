@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import Image from "./image"
-import Img from "gatsby-image"
-import { graphql, useStaticQuery } from "gatsby"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import Image from "./image";
+import Img from "gatsby-image";
+import { graphql, useStaticQuery } from "gatsby";
 
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
         }
       }
     }
-  `)
+  `);
   return (
     <header
       style={{
@@ -44,21 +44,21 @@ const Header = ({ siteTitle }) => {
             <Img
               className="title-logo"
               fluid={data.logo.childImageSharp.fluid}
-            />
-            <h1 className="title-text">The Surfers Blog</h1>
+            />{" "}
+            <h1 className="title-text"> The Golfers Blog </h1>{" "}
           </Link>{" "}
         </h1>{" "}
       </div>{" "}
     </header>
-  )
-}
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

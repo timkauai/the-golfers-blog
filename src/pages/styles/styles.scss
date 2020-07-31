@@ -79,7 +79,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin: 0 1.5vw;
-  font-size: calc(3px + (25 - 3) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(3px + (18 - 3) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .horiz-line {
@@ -122,7 +122,7 @@ html {
 .large a {
   display: block;
   font-family: roboto-c-l;
-  color: #f07167;
+  color: #D63230;
   text-decoration: none;
   width: 100%;
   text-align: right;
@@ -662,4 +662,9 @@ footer div a {
     width: 15vw;
     margin-left: 12.5vw;
   }
+}
+
+.a-that-shouldnt-be {
+  text-decoration: none;
+  color: black;
 }
