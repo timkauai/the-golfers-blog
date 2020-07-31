@@ -1,0 +1,15 @@
+---
+path: "index"
+post: "false"
+keyword1: "Surf"
+keyword2: "surf"
+keyword3: "surf"
+keyword4: "surf"
+keyword5: "surf"
+keyword6: "surf"
+poppost1: "pop-post-title"
+poppost2: "pop-post-title"
+poppost3: "pop-post-title"
+editorschoice1: "post title"
+editorschoice2: "post title"
+---
