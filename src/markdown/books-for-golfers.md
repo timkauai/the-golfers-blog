@@ -1,0 +1,5 @@
+---
+path: "/best-5-books-for-golfers/"
+title: "Best 5 Golf Books: Golf Books Every Golfer Should Read"
+post: "true"
+---

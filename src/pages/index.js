@@ -55,8 +55,7 @@ const IndexPage = ({ data }) => {
             <h1 className="article-title"> {dt.large1.title} </h1>{" "}
             <h3> {dt.large1.keywords}</h3>{" "}
           </div>{" "}
-          <p>{dt.large1.desc}</p>{" "}
-          <Link to="/how-to-break-100/"> Read More </Link>{" "}
+          <p>{dt.large1.desc}</p> <Link to={dt.large1.path}> Read More </Link>{" "}
         </div>{" "}
       </div>{" "}
       <div className="latest-posts">
@@ -67,8 +66,8 @@ const IndexPage = ({ data }) => {
               className="latest-img"
               fluid={data.imgtwo.childImageSharp.fluid}
             />{" "}
-            <h1>{dt.latestpost1.title}</h1> <h3> {dt.latestpost2.keywords} </h3>{" "}
-            <Link to="/blog-posts/blog-post-one"> Read More </Link>{" "}
+            <h1>{dt.latestpost1.title}</h1> <h3> {dt.latestpost1.keywords} </h3>{" "}
+            <Link to={dt.latestpost1.path}> Read More </Link>{" "}
           </div>{" "}
           <div className="latest-article">
             <Img
@@ -76,7 +75,7 @@ const IndexPage = ({ data }) => {
               fluid={data.imgtwo.childImageSharp.fluid}
             />{" "}
             <h1>{dt.latestpost2.title} </h1> <h3>{dt.latestpost2.keywords}</h3>{" "}
-            <Link to="/blog-posts/blog-post-one"> Read More </Link>{" "}
+            <Link to={dt.latestpost2.path}> Read More </Link>{" "}
           </div>{" "}
           <div className="latest-article">
             <Img
@@ -84,7 +83,7 @@ const IndexPage = ({ data }) => {
               fluid={data.imgtwo.childImageSharp.fluid}
             />{" "}
             <h1> {dt.latestpost3.title} </h1> <h3>{dt.latestpost3.keywords}</h3>{" "}
-            <Link to="/blog-posts/blog-post-one"> Read More </Link>{" "}
+            <Link to={dt.latestpost3.path}> Read More </Link>{" "}
           </div>{" "}
         </div>{" "}
       </div>{" "}
@@ -110,25 +109,31 @@ const IndexPage = ({ data }) => {
               <h3> {dt.featuredkeyword.large.keywords} </h3>{" "}
             </div>
             <p>{dt.featuredkeyword.large.desc}</p>{" "}
-            <Link to="/how-to-break-100/"> Read More </Link>{" "}
+            <Link to={dt.featuredkeyword.large.path}> Read More </Link>{" "}
           </div>{" "}
         </div>{" "}
         <div className="line-of-3">
-          <div className="latest-article">
+          <Link className="latest-article" to={dt.featuredkeyword.sm1.path}>
             <Img
               className="latest-img"
               fluid={data.imgthree.childImageSharp.fluid}
             />{" "}
-            <h1> {dt.featuredkeyword.sm1.title} </h1>{" "}
-          </div>{" "}
-          <div className="latest-article">
+            <h1 className="a-that-shouldnt-be">
+              {" "}
+              {dt.featuredkeyword.sm1.title}{" "}
+            </h1>{" "}
+          </Link>{" "}
+          <Link className="latest-article" to={dt.featuredkeyword.sm2.path}>
             <Img
               className="latest-img"
               fluid={data.imgthree.childImageSharp.fluid}
             />{" "}
-            <h1> {dt.featuredkeyword.sm2.title} </h1>{" "}
-          </div>{" "}
-          <Link to="/how-to-break-100/" className="latest-article">
+            <h1 className="a-that-shouldnt-be">
+              {" "}
+              {dt.featuredkeyword.sm2.title}{" "}
+            </h1>{" "}
+          </Link>{" "}
+          <Link to={dt.featuredkeyword.sm3.path} className="latest-article">
             <Img
               className="latest-img"
               fluid={data.imgthree.childImageSharp.fluid}
@@ -151,7 +156,7 @@ const IndexPage = ({ data }) => {
               <h3> {dt.editorschoice1.keywords} </h3>{" "}
             </div>{" "}
             <p>{dt.editorschoice1.desc}</p>{" "}
-            <Link to="/blog-posts/blog-post-one"> Read More </Link>{" "}
+            <Link to={dt.editorschoice1.path}> Read More </Link>{" "}
           </div>{" "}
         </div>{" "}
         <div>
@@ -163,7 +168,7 @@ const IndexPage = ({ data }) => {
                 <h3> {dt.editorschoice2.keyword2} </h3>{" "}
               </div>{" "}
               <p>{dt.editorschoice2.desc}</p>{" "}
-              <Link to="/blog-posts/blog-post-one"> watch </Link>{" "}
+              <Link to={dt.editorschoice2.path}> read more </Link>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}
@@ -175,21 +180,21 @@ const IndexPage = ({ data }) => {
           <div className="div-sm-img"> </div>{" "}
           <h1> {data.keys.nodes[0].frontmatter.poppost1.title} </h1>{" "}
           <h3> {dt.poppost1.keywords} </h3>{" "}
-          <Link to="/blog-posts/blog-post-one"> read more </Link>{" "}
+          <Link to={dt.poppost1.path}> read more </Link>{" "}
         </div>{" "}
         <div className="sm">
           {" "}
           <div className="div-sm-img"> </div>{" "}
           <h1> {data.keys.nodes[0].frontmatter.poppost2.title} </h1>{" "}
-          <h3> {dt.poppost1.keywords} </h3>{" "}
-          <Link to="/blog-posts/blog-post-one"> read more </Link>{" "}
+          <h3> {dt.poppost2.keywords} </h3>{" "}
+          <Link to={dt.poppost2.path}> read more </Link>{" "}
         </div>{" "}
         <div className="sm">
           {" "}
           <div className="div-sm-img"> </div>{" "}
           <h1> {data.keys.nodes[0].frontmatter.poppost3.title} </h1>{" "}
-          <h3> {dt.poppost1.keywords} </h3>{" "}
-          <Link to="/blog-posts/blog-post-one"> read more </Link>{" "}
+          <h3> {dt.poppost3.keywords} </h3>{" "}
+          <Link to={dt.poppost3.path}> read more </Link>{" "}
         </div>{" "}
       </div>{" "}
       <footer>
@@ -238,58 +243,71 @@ export const data = graphql`
           keyword6
           editorschoice1 {
             title
+            path
             keywords
             desc
           }
           editorschoice2 {
             title
+            path
             keywords
             desc
           }
           poppost1 {
             title
+            path
             keywords
           }
           poppost2 {
             title
+            path
             keywords
           }
           poppost3 {
             title
+            path
             keywords
           }
           large1 {
             title
+            path
             keywords
             desc
           }
           latestpost1 {
             title
+            path
             keywords
           }
           latestpost2 {
             title
+            path
             keywords
           }
           latestpost3 {
             title
+            path
             keywords
           }
           featuredkeyword {
             title
             large {
               title
+              path
               keywords
               desc
             }
             sm1 {
               title
+              path
             }
             sm2 {
               title
+              path
             }
             sm3 {
               title
+              path
             }
           }
         }

@@ -74,7 +74,7 @@ featuredkeyword:
         keywords: "Golf Tips",
         desc: "The average golfer can't break 100. I believe that if you read this guide of 10 tips to breaking 100, you will be able to 100 with a bit of practice and a couple of rounds of applying these concepts",
       },
-    sm1: { title: "The Best 6 Putting Drills", path: "/6-putting-drills/" },
+    sm1: { title: "The Best 6 Putting Drills", path: "/6-putting-tips/" },
     sm2: { title: "Workouts for golfers", path: "/workouts-for-golfers/" },
     sm3: { title: "How to break 100?", path: "/how-to-break-100/" },
   }
