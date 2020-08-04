@@ -690,3 +690,79 @@ footer div a {
     padding: 20px;
   }
 }
+
+.blog-post {
+  width: 60vw;
+  margin: 0 auto;
+  font-family: open-sans;
+  line-height: 2;
+
+  h3 {
+    width: 60vw;
+    text-align: center;
+  }
+}
+
+.post-above-fold {
+  width: 40vw;
+  height: 40vh;
+  float: right;
+  margin-top: 20vh;
+}
+
+.HTB100-title {
+  background-image: url("../../images/htb100-title.jpg");
+  width: 50vw;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 10vh;
+}
+
+.tip-w-pic {
+  float: right;
+  margin-bottom: 7.5vh;
+
+
+  .pic {
+    width: 25vw;
+    height: 20vh;
+    margin: 2vh 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .left {
+    float: left;
+  }
+}
+
+.HTB100-distance {
+  background-image: url("../../images/htb100-distance.jpg");
+}
+
+.HTB100-hazard {
+  background-image: url("../../images/HTB100-hazard.jpg");
+}
+
+.HTB100-stratagy {
+  background-image: url("../../images/htb100-stratagize.jpg");
+}
+
+.HTB100-driver {
+  background-image: url("../../images/HTB100-driver.jpg");
+}
+
+.HTB100-bad {
+  background-image: url("../../images/htb100-badshots.jpg");
+}
+
+.HTB100-hazard {
+  background-image: url("../../images/HTB100-hazard.jpg");
+}
