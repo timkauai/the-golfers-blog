@@ -2,17 +2,17 @@
 path: "index"
 post: "false"
 keyword1: "Golf Courses"
-keyword1path: "/golf-courses/"
+keyword1path: "/keyword-pages/golf-courses/"
 keyword2: "Golf Product Reviews"
-keyword2path: "/golf-product-reviews/"
+keyword2path: "/keyword-pages/golf-product-reviews/"
 keyword3: "Golf Brands"
-keyword3path: "/golf-brands/"
+keyword3path: "/keyword-pages/golf-brands/"
 keyword4: "Trendy Golf Talk"
-keyword4path: "/trendy-golf-talk/"
+keyword4path: "/keyword-pages/trendy-golf-talk/"
 keyword5: "PGA Golf Talk"
-keyword5path: "/pga-golf-talk/"
+keyword5path: "/keyword-pages/pga-golf-talk/"
 keyword6: "Golf Tips"
-keyword6path: "/golf-tips/"
+keyword6path: "/keyword-pages/golf-tips/"
 large1:
   {
     title: "The Best 6 Putting Drills",

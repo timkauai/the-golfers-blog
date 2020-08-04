@@ -24,7 +24,7 @@ const GolfCoursesPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1 className="centered">Catagory: Golf Courses</h1>
+      <h1 className="centered"> Catagory: Golf Courses </h1>{" "}
       <hr className="horiz-line" />
       <div className="keywords">
         <Link to={dt.keyword1path}> {dt.keyword1} </Link>{" "}
@@ -47,20 +47,20 @@ const GolfCoursesPage = ({ data }) => {
         <Link to={dt.keyword6path}> {dt.keyword6} </Link>{" "}
       </div>{" "}
       <hr className="horiz-line" />
-      <h3>
+      <h3 className="center">
         {" "}
         We are sorry, but our writers have not produced any content on Golf
         Courses quite yet, look forward to some soon!!
-      </h3>
+      </h3>{" "}
       <div className="out-of-content">
         <h3>
-          Feel free to either
+          Feel free to either{" "}
           <Link className="return-home" to="/">
-            Return Home
+            Return Home{" "}
           </Link>
-          Or check us out on social media (with the links below)!
-        </h3>
-      </div>
+          Or check us out on social media(with the links below) !
+        </h3>{" "}
+      </div>{" "}
       <footer>
         <div className="footer-links left">
           <Link to="https://reddit.com"> reddit </Link> <Link> youtube </Link>{" "}
