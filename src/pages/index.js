@@ -26,26 +26,24 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <hr className="horiz-line" />
       <div className="keywords">
-        <Link to="/keyword-pages/keyword1/"> {dt.keyword1} </Link>{" "}
-        <Link to="/keyword-pages/keyword2/"> {dt.keyword2} </Link>{" "}
-        <Link to="/keyword-pages/keyword3/"> {dt.keyword3} </Link>{" "}
-        <Link to="/keyword-pages/keyword4/"> {dt.keyword4} </Link>{" "}
-        <Link to="/keyword-pages/keyword5/"> {dt.keyword5} </Link>{" "}
-        <Link to="/keyword-pages/keyword6/"> {dt.keyword6} </Link>{" "}
+        <Link to={dt.keyword1path}> {dt.keyword1} </Link>{" "}
+        <Link to={dt.keyword2path}> {dt.keyword2} </Link>{" "}
+        <Link to={dt.keyword3path}> {dt.keyword3} </Link>{" "}
+        <Link to={dt.keyword4path}> {dt.keyword4} </Link>{" "}
+        <Link to={dt.keyword5path}> {dt.keyword5} </Link>{" "}
+        <Link to={dt.keyword6path}> {dt.keyword6} </Link>{" "}
         <button class="icon" onClick={() => openMenu()}>
           <div className="icon-burger"> </div>{" "}
         </button>{" "}
       </div>{" "}
       <div className={burger.toString()}>
-        <Link to="/keyword-pages/keyword1/"> {dt.keyword1} </Link>{" "}
-        <Link to="/keyword-pages/keyword2/">
-          {" "}
-          {data.keys.nodes[0].frontmatter.keyword2}{" "}
-        </Link>{" "}
-        <Link to="/keyword-pages/keyword3/"> {dt.keyword3} </Link>{" "}
-        <Link to="/keyword-pages/keyword4/"> {dt.keyword4} </Link>{" "}
-        <Link to="/keyword-pages/keyword5/"> {dt.keyword5} </Link>{" "}
-        <Link to="/keyword-pages/keyword6/"> {dt.keyword6} </Link>{" "}
+        {" "}
+        <Link to={dt.keyword1path}> {dt.keyword1} </Link>{" "}
+        <Link to={dt.keyword2path}> {dt.keyword2} </Link>{" "}
+        <Link to={dt.keyword3path}> {dt.keyword3} </Link>{" "}
+        <Link to={dt.keyword4path}> {dt.keyword4} </Link>{" "}
+        <Link to={dt.keyword5path}> {dt.keyword5} </Link>{" "}
+        <Link to={dt.keyword6path}> {dt.keyword6} </Link>{" "}
       </div>{" "}
       <hr className="horiz-line" />
       <div className="large above-fold">
@@ -168,7 +166,7 @@ const IndexPage = ({ data }) => {
                 <h3> {dt.editorschoice2.keyword2} </h3>{" "}
               </div>{" "}
               <p>{dt.editorschoice2.desc}</p>{" "}
-              <Link to={dt.editorschoice2.path}> read more </Link>{" "}
+              <Link to={dt.editorschoice2.path}> read </Link>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}
@@ -236,11 +234,17 @@ export const data = graphql`
       nodes {
         frontmatter {
           keyword1
+          keyword1path
           keyword2
+          keyword2path
           keyword3
+          keyword3path
           keyword4
+          keyword4path
           keyword5
+          keyword5path
           keyword6
+          keyword6path
           editorschoice1 {
             title
             path

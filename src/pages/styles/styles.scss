@@ -668,3 +668,25 @@ footer div a {
   text-decoration: none;
   color: black;
 }
+
+.out-of-content {
+  max-width: 80vw;
+  margin: 10vh auto;
+  background-color: #e1e0d0;
+  padding: 10px 30px;
+  height: 20vh;
+
+  a {
+    display: block;
+    font-family: roboto-c-l;
+    color: #f07167;
+    text-decoration: none;
+    width: 100%;
+    text-align: right;
+    font-size: 26px;
+    float: none;
+    display: inline-block;
+    width: max-content;
+    padding: 20px;
+  }
+}
