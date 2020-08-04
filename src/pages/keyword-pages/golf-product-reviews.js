@@ -47,9 +47,19 @@ const GolfProductReviewsPage = ({ data }) => {
         <Link to={dt.keyword6path}> {dt.keyword6} </Link>{" "}
       </div>{" "}
       <hr className="horiz-line" />
-      <h3>
+      <div className="large above-fold">
+        <div className="featured-large-img"> </div>{" "}
+        <div className="large-padding">
+          <div className="titleing">
+            <h1 className="article-title"> {dt.large1.title} </h1>{" "}
+            <h3> {dt.large1.keywords}</h3>{" "}
+          </div>{" "}
+          <p>{dt.large1.desc}</p> <Link to={dt.large1.path}> Read More </Link>{" "}
+        </div>{" "}
+      </div>{" "}
+      <h3 className="center">
         {" "}
-        We are sorry, but our writers have not produced any content on Golf
+        We are sorry, but our writers have not produced any more content on Golf
         Courses quite yet, look forward to some soon!!
       </h3>{" "}
       <div className="out-of-content">
@@ -96,6 +106,12 @@ export const GolfProductReviewsQuery = graphql`
           keyword5path
           keyword6
           keyword6path
+          large1 {
+            title
+            keywords
+            desc
+            path
+          }
         }
       }
     }
