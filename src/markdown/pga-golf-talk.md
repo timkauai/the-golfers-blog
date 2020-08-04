@@ -8,18 +8,12 @@ keyword3: "Golf Brands"
 keyword4: "Trendy Golf Talk"
 keyword5: "PGA Golf Talk"
 keyword6: "Golf Tips"
-keyword1path: "/golf-courses/"
-keyword2path: "/golf-product-reviews/"
-keyword3path: "/golf-brands/"
-keyword4path: "/trendy-golf-talk/"
-keyword5path: "/pga-golf-talk/"
-keyword6path: "/golf-tips/"
+keyword1path: "/keyword-pages/golf-courses/"
+keyword2path: "/keyword-pages/golf-product-reviews/"
+keyword3path: "/keyword-pages/golf-brands/"
+keyword4path: "/keyword-pages/trendy-golf-talk/"
+keyword5path: "/keyword-pages/pga-golf-talk/"
+keyword6path: "/keyword-pages/golf-tips/"
 amount: "1"
-large1:
-  {
-    title: "(early) PGA Championship Picks",
-    path: "/early-pga-picks/",
-    keywords: "PGA Golf Talk • Trendy Golf Talk",
-    desc: "Here I talk about my favorite 6 putting tips, I included 3 you can do at home while quarantining and 3 you can do when you finally get to the course next! Putting is also one of the most important techniques to master in golfing.",
-  }
+large1: { title: "(early) PGA Championship Picks", path: "/early-pga-picks/", keywords: "PGA Golf Talk • Trendy Golf Talk", desc: "The PGA Championship is quite a bit away, but I wanted to express my excitement for the first major in a while by writing a blog post talking about my picks for golfers to win and play good in the competition.", }
 ---
