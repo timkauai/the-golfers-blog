@@ -52,15 +52,15 @@ const GolfProductReviewsPage = ({ data }) => {
         <div className="large-padding">
           <div className="titleing">
             <h1 className="article-title"> {dt.large1.title} </h1>{" "}
-            <h3> {dt.large1.keywords}</h3>{" "}
+            <h3> {dt.large1.keywords} </h3>{" "}
           </div>{" "}
-          <p>{dt.large1.desc}</p> <Link to={dt.large1.path}> Read More </Link>{" "}
+          <p> {dt.large1.desc} </p> <Link to={dt.large1.path}> Read More </Link>{" "}
         </div>{" "}
       </div>{" "}
       <h3 className="center">
         {" "}
         We are sorry, but our writers have not produced any more content on Golf
-        Courses quite yet, look forward to some soon!!
+        Product Reviews quite yet, look forward to some soon!!
       </h3>{" "}
       <div className="out-of-content">
         <h3>
