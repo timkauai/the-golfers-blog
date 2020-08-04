@@ -14,5 +14,5 @@ keyword3path: "/golf-brands/"
 keyword4path: "/trendy-golf-talk/"
 keyword5path: "/pga-golf-talk/"
 keyword6path: "/golf-tips/"
- amount: "0"
+amount: "0"
 ---
