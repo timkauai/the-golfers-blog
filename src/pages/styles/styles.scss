@@ -721,7 +721,6 @@ footer div a {
 }
 
 .tip-w-pic {
-  float: right;
   margin-bottom: 7.5vh;
 
 
@@ -751,7 +750,7 @@ footer div a {
   background-image: url("../../images/HTB100-hazard.jpg");
 }
 
-.HTB100-stratagy {
+.HTB100-strategy {
   background-image: url("../../images/htb100-stratagize.jpg");
 }
 
@@ -760,9 +759,15 @@ footer div a {
 }
 
 .HTB100-bad {
-  background-image: url("../../images/htb100-badshots.jpg");
+  background-image: url("../../images/HTB100-badshots.jpg");
+  background-position: 50% 70%;
+  width: 25vw;
+  height: 20vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.HTB100-hazard {
-  background-image: url("../../images/HTB100-hazard.jpg");
+.HTB100-fun {
+  background-image: url("../../images/HTB100-fun.jpg");
 }

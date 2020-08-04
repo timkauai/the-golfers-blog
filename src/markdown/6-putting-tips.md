@@ -17,3 +17,4 @@ keyword6path: "/keyword-pages/golf-tips/"
 author: "James Pratt"
 ---
 
+<h3> We are sorry this page isn't out yet, please check back in a couple days!! </h3>
