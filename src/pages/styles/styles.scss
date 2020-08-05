@@ -731,6 +731,21 @@ footer div a {
     background-position: 50% 50%;
   }
 
+  .pic-h {
+    width: 25vw;
+    margin: 2vh 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .pic-h-w {
+    margin: 2vh 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
   .right {
     float: right;
   }
@@ -870,4 +885,41 @@ footer div a {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin-bottom: 10vh;
+}
+
+.PD-title {
+  background-image: url("../../images/PD/title.jpg");
+  width: 50vw;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 10vh;
+}
+
+.PD-meterstick {
+  background-image: url("../../images/PD/meter-stick.jpg");
+}
+
+.PD-manilla {
+  background-image: url("../../images/PD/manilla-folder.jpg");
+  height: 30vh;
+  width: 15vw;
+}
+
+.PD-backside {
+  background-image: url("../../images/PD/backside.jpeg");
+  height: 30vh;
+}
+
+.PD-clockdrill {
+  background-image: url("../../images/PD/clock-drill.jpg");
+}
+
+.PD-pull-back {
+  background-image: url("../../images/PD/pull-back.jpg");
+}
+
+.PD-100-putts {
+  background-image: url("../../images/PD/100-putts.jpeg");
 }
