@@ -122,7 +122,7 @@ html {
 .large a {
   display: block;
   font-family: roboto-c-l;
-  color: #D63230;
+  color: #d63230;
   text-decoration: none;
   width: 100%;
   text-align: right;
@@ -504,7 +504,6 @@ footer div a {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
   transition: all 0.5s ease-in-out;
-
 }
 
 .icon-burger::before,
@@ -723,7 +722,6 @@ footer div a {
 .tip-w-pic {
   margin-bottom: 7.5vh;
 
-
   .pic {
     width: 25vw;
     height: 20vh;
@@ -770,4 +768,106 @@ footer div a {
 
 .HTB100-fun {
   background-image: url("../../images/HTB100-fun.jpg");
+}
+
+.WFG-curlup {
+  background-image: url("../../images/WFG/curlups.jpg");
+  background-position: 50% 70%;
+  width: 25vw;
+  height: 25vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.WFG-glute {
+  background-image: url("../../images/WFG/glute-bridge.jpg");
+  background-position: 50% 60%;
+  width: 25vw;
+  height: 33vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-reachback {
+  background-image: url("../../images/WFG/reachbacks.jpg");
+  background-position: 50% 60%;
+  width: 15vw;
+  height: 25vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-reverse-clams {
+  background-image: url("../../images/WFG/reverseclams.jpg");
+  background-position: 50% 60%;
+  width: 20vw;
+  height: 33vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-standing-torso {
+  background-image: url("../../images/WFG/standing-torso.jpg");
+  background-position: 50% 60%;
+  width: 20vw;
+  height: 35vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-seated-rotations {
+  background-image: url("../../images/WFG/seated-rotation.jpg");
+  background-position: 50% 60%;
+  width: 20vw;
+  height: 33vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-standing-ys {
+  background-image: url("../../images/WFG/standing-ys.jpg");
+  background-position: 50% 50%;
+  width: 25vw;
+  height: 33vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-handwalks {
+  background-image: url("../../images/WFG/handwalks.jpg");
+  background-position: 50% 60%;
+  width: 45vw;
+  height: 17vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-90-90 {
+  background-image: url("../../images/WFG/9090.jpg");
+  background-position: 50% 60%;
+  width: 25vw;
+  height: 33vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.WFG-lateral {
+  background-image: url("../../images/WFG/lateral-pillar-bridge.jpg");
+  background-position: 50% 60%;
+  width: 25vw;
+  height: 33vh;
+  margin: 2vh 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.WFG-title {
+  background-image: url("../../images/WFG/working-out.jpg");
+  width: 50vw;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 10vh;
 }
