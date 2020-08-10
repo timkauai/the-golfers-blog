@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => {
       </div>{" "}
       <hr className="horiz-line" />
       <div className="large above-fold">
-        <div className="featured-large-img"> </div>{" "}
+        <div className="featured-large-img PD-title"> </div>{" "}
         <div className="large-padding">
           <div className="titleing">
             <h1 className="article-title"> {dt.large1.title} </h1>{" "}
